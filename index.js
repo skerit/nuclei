@@ -1,0 +1,1 @@
+modue.exports = require('./lib/nuclei');

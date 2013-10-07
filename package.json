@@ -1,0 +1,15 @@
+{
+	"name": "nuclei",
+	"description": "Basic classical inheritance system",
+	"version": "0.0.1",
+	"keywords": [
+		"inheritance",
+		"class",
+		"extend",
+		"augment",
+		"parent"
+	],
+	"engines": {
+		"node": ">=0.8"
+	}
+}
