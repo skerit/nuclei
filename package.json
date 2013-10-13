@@ -1,7 +1,7 @@
 {
 	"name": "nuclei",
 	"description": "Basic classical inheritance system",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"keywords": [
 		"inheritance",
 		"class",

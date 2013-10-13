@@ -22,7 +22,7 @@ npm install nuclei
 Require `Nuclei`, the base class from which all others inherit:
 
 ```javascript
-var Nuclei = require('nuclei');
+var Nuclei = require('nuclei').Nuclei;
 ```
 
 

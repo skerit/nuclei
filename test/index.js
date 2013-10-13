@@ -1,4 +1,4 @@
-var Nuclei = require('../lib/nuclei.js');
+var Nuclei = require('../lib/nuclei.js').Nuclei;
 
 console.log('\nCreating Animal class');
 var Animal = Nuclei.extend(function Animal() {
