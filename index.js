@@ -1,1 +1,1 @@
-modue.exports = require('./lib/nuclei');
+module.exports = require('./lib/nuclei');
