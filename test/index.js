@@ -3,6 +3,10 @@ var Nuclei = require('../lib/nuclei.js').Nuclei;
 console.log('\nCreating Animal class');
 var Animal = Nuclei.extend(function Animal() {
 
+	this.preInit = function preInit() {
+		console.log('This is animal\'s preInit method');
+	};
+
 	this.init = function init() {
 		console.log('Animal has been inited');
 	};
@@ -21,6 +25,10 @@ var Dog = Animal.extend(function Dog() {
 		console.log('Dog has been inited');
 		this.parent();
 	};
+
+	this.__extended__ = function __extended__() {
+		console.log('Running extended in ' + this.name);
+	}
 
 	this.speak = function speak() {
 		console.log('The ' + this.color + ' dog says: woef!');
