@@ -1,0 +1,130 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish', '.' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.20
+4 verbose node symlink /usr/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/skerit/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/tmp.tgz
+13 verbose folder .
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/skerit/.npm/1f1177db-tar.lock
+16 silly lockFile d112ca8a-02993-0-8644358003512025-tmp-tgz tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/tmp.tgz
+17 verbose lock tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/tmp.tgz /home/skerit/.npm/d112ca8a-02993-0-8644358003512025-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile d112ca8a-02993-0-8644358003512025-tmp-tgz tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/tmp.tgz
+21 silly lockFile d112ca8a-02993-0-8644358003512025-tmp-tgz tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/tmp.tgz
+22 verbose tar unpack /home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/tmp.tgz
+23 silly lockFile 81c22b87-02993-0-8644358003512025-package tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/package
+24 verbose lock tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/package /home/skerit/.npm/81c22b87-02993-0-8644358003512025-package.lock
+25 silly lockFile d112ca8a-02993-0-8644358003512025-tmp-tgz tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/tmp.tgz
+26 verbose lock tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/tmp.tgz /home/skerit/.npm/d112ca8a-02993-0-8644358003512025-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+34 silly gunzTarPerm extractEntry index.js
+35 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+36 silly gunzTarPerm extractEntry lib/nuclei.js
+37 silly gunzTarPerm modified mode [ 'lib/nuclei.js', 436, 420 ]
+38 silly gunzTarPerm extractEntry test/index.js
+39 silly gunzTarPerm modified mode [ 'test/index.js', 436, 420 ]
+40 silly lockFile 81c22b87-02993-0-8644358003512025-package tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/package
+41 silly lockFile 81c22b87-02993-0-8644358003512025-package tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/package
+42 silly lockFile d112ca8a-02993-0-8644358003512025-tmp-tgz tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/tmp.tgz
+43 silly lockFile d112ca8a-02993-0-8644358003512025-tmp-tgz tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/tmp.tgz
+44 verbose tar pack [ '/home/skerit/.npm/nuclei/0.1.1/package.tgz',
+44 verbose tar pack   '/home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/package' ]
+45 verbose tarball /home/skerit/.npm/nuclei/0.1.1/package.tgz
+46 verbose folder /home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/package
+47 silly lockFile 81c22b87-02993-0-8644358003512025-package tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/package
+48 verbose lock tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/package /home/skerit/.npm/81c22b87-02993-0-8644358003512025-package.lock
+49 silly lockFile 38e5fc60-rit-npm-nuclei-0-1-1-package-tgz tar:///home/skerit/.npm/nuclei/0.1.1/package.tgz
+50 verbose lock tar:///home/skerit/.npm/nuclei/0.1.1/package.tgz /home/skerit/.npm/38e5fc60-rit-npm-nuclei-0-1-1-package-tgz.lock
+51 silly lockFile 81c22b87-02993-0-8644358003512025-package tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/package
+52 silly lockFile 81c22b87-02993-0-8644358003512025-package tar:///home/skerit/tmp/npm-721-K9F4M2xB/1381689202993-0.8644358003512025/package
+53 silly lockFile 38e5fc60-rit-npm-nuclei-0-1-1-package-tgz tar:///home/skerit/.npm/nuclei/0.1.1/package.tgz
+54 silly lockFile 38e5fc60-rit-npm-nuclei-0-1-1-package-tgz tar:///home/skerit/.npm/nuclei/0.1.1/package.tgz
+55 silly lockFile b472ff39--skerit-npm-nuclei-0-1-1-package /home/skerit/.npm/nuclei/0.1.1/package
+56 verbose lock /home/skerit/.npm/nuclei/0.1.1/package /home/skerit/.npm/b472ff39--skerit-npm-nuclei-0-1-1-package.lock
+57 silly lockFile b472ff39--skerit-npm-nuclei-0-1-1-package /home/skerit/.npm/nuclei/0.1.1/package
+58 silly lockFile b472ff39--skerit-npm-nuclei-0-1-1-package /home/skerit/.npm/nuclei/0.1.1/package
+59 verbose tar unpack /home/skerit/.npm/nuclei/0.1.1/package.tgz
+60 silly lockFile b1118ed4--skerit-npm-nuclei-0-1-1-package tar:///home/skerit/.npm/nuclei/0.1.1/package
+61 verbose lock tar:///home/skerit/.npm/nuclei/0.1.1/package /home/skerit/.npm/b1118ed4--skerit-npm-nuclei-0-1-1-package.lock
+62 silly lockFile 38e5fc60-rit-npm-nuclei-0-1-1-package-tgz tar:///home/skerit/.npm/nuclei/0.1.1/package.tgz
+63 verbose lock tar:///home/skerit/.npm/nuclei/0.1.1/package.tgz /home/skerit/.npm/38e5fc60-rit-npm-nuclei-0-1-1-package-tgz.lock
+64 silly gunzTarPerm modes [ '755', '644' ]
+65 silly gunzTarPerm extractEntry package.json
+66 silly gunzTarPerm extractEntry .npmignore
+67 silly gunzTarPerm extractEntry README.md
+68 silly gunzTarPerm extractEntry index.js
+69 silly gunzTarPerm extractEntry lib/nuclei.js
+70 silly gunzTarPerm extractEntry test/index.js
+71 silly lockFile b1118ed4--skerit-npm-nuclei-0-1-1-package tar:///home/skerit/.npm/nuclei/0.1.1/package
+72 silly lockFile b1118ed4--skerit-npm-nuclei-0-1-1-package tar:///home/skerit/.npm/nuclei/0.1.1/package
+73 silly lockFile 38e5fc60-rit-npm-nuclei-0-1-1-package-tgz tar:///home/skerit/.npm/nuclei/0.1.1/package.tgz
+74 silly lockFile 38e5fc60-rit-npm-nuclei-0-1-1-package-tgz tar:///home/skerit/.npm/nuclei/0.1.1/package.tgz
+75 verbose chmod /home/skerit/.npm/nuclei/0.1.1/package.tgz 644
+76 verbose chown /home/skerit/.npm/nuclei/0.1.1/package.tgz [ 1000, 1000 ]
+77 silly lockFile 3a52ce78- .
+78 silly lockFile 3a52ce78- .
+79 silly publish { name: 'nuclei',
+79 silly publish   description: 'Basic classical inheritance system',
+79 silly publish   version: '0.1.1',
+79 silly publish   keywords: [ 'inheritance', 'class', 'extend', 'augment', 'parent' ],
+79 silly publish   engines: { node: '>=0.8' },
+79 silly publish   scripts: { test: 'node test/index.js' },
+79 silly publish   readme: '# Nuclei\nNuclei provides you with an Object Oriented inheritance system allowing you\nto straightforwardly create classes, while maintaining standard prototype\nfunctionality.\n\n\n\n\n## Install\n\nDownload the package through npm:\n\n```bash\nnpm install nuclei\n```\n\n\n\n\n## Usage\n\nRequire `Nuclei`, the base class from which all others inherit:\n\n```javascript\nvar Nuclei = require(\'nuclei\').Nuclei;\n```\n\n\n\n### Class Properties\n\nEvery class has a few properties you can use:\n\n\n#### extend method\n\nIn order to create a new class, you need to use the extend method, like this:\n\n```javascript\nNuclei.extend([ClassName], NewClassConstructor, [OptionsObject]);\n```\n\n- ClassName: A string containing the name of the class you wish to extend.\nOptional, because each class has its own `extend` method.\n\n- NewClassConstructor: A *named* function containing all the methods for this\nclass. These methods should be assigned to the `this` variable, and should also\nbe named! This function will be executed immediately and will not be re-executed\nupon instancing a new object. So anything in here will be shared by all\ninstances.\n\n- OptionsObject: An optional object containing special configuration. Mostly\nused by internal Nuclei stuff.\n\n\n#### overload method\n\nThis is basically the same as extending the class, but it is used to overwrite\nthe class you\'re extending.\n\nYou can even overload a class that does not exist yet.\n\n```javascript\nNuclei.overload([ClassName], NewClassConstructor);\n```\n\n- ClassName: A string containing the name of the class you wish to overload.\nOptional. If the class does not exist yet, it will be overloaded once it does.\nWarning: Does not affect already existing instances.\n\n- NewClassConstructor: Same as the `extend` method parameter.\n\n\n#### parent property\n\nThe parent property of the class is a reference to its parent class.\n\n\n\n### Class Instance Magic Methods\n\nEvery instance has a bit of magic:\n\n- `init`: This is the \'constructor\' method. It will receive all the parameters\npassed at instancing.\n\n- `__extended__`: This method runs when the class is being extended.\n\n- `augment`: This method creates an \'augmented\' version of the current instance.\nYou can read more about this in the \'augmentation\' section.\n\n- `augmented`: This method runs after the instance has been augmented.\n\n- `parent`: The parent method calls a method from the parent class. More can be\nread in the \'parent\' section.\n\n\n\n### Create a new class\n\nYou can create a basic class by using the `extend` method in this way:\n\n```javascript\nvar Animal = Nuclei.extend(function Animal() {\n\n\tthis.init = function init() {\n\t\tconsole.log(\'Animal has been inited\');\n\t};\n\n\tthis.speak = function speak() {\n\t\tconsole.log(\'What does a generic animal say?\');\n\t};\n});\n\nvar myAnimal = new Animal();\n// >>> "Animal has been inited"\n\nmyAnimal.speak();\n// >>> "What does a generic animal say?"\n```\n\n\n### Extend a class\n\nThis is basically the same as creating a new class, since creating a new class\nis actually extending from the `Nuclei` base class.\n\n```javascript\nvar Dog = Animal.extend(function Dog() {\n\n\tthis.init = function init(color) {\n\t\tthis.color = color;\n\t\tconsole.log(\'Dog has been inited\');\n\t\tthis.parent();\n\t};\n\n\tthis.speak = function speak() {\n\t\tconsole.log(\'The \' + this.color + \' dog says: woef!\');\n\t};\n});\n\nvar myDog = new Dog();\n// >>> "Dog has been inited"\n// >>> "Animal has been inited"\n\nmyDog.speak();\n// >>> "The brown dog says: woef!"\n```\n\n### Augmenting an instance\n\nIn certain cases it could be wasteful to create a new instance of a class.\nInstead you can augment the instance, which basically creates a new context for\nthe instance and uses that.\n\n```javascript\nvar myAugmentedDog = myDog.augment({color: \'augmented\'});\nmyAugmentedDog.speak();\n// >>> "The augmented dog says: woef!"\n```\n\n\n### Parent\n\nYou can call a parent method in several ways inside a method:\n\n- `this.parent()` calls the parent of the current method, passing the same\narguments\n- `this.parent(name)` calls the `name` method of the parent class, passing the\nsame arguments\n- `this.parent(name, [arg1, arg2])` calls the `name` method of the parent class,\npassing the arguments inside the array as parameters\n- `this.parent(name, null, arg1, arg2, arg3)` calls the `name` method of the\nparent class, passing the extra arguments as parameters\n\n\n### Prototype\n\nThe prototype system can still be used to add methods to already existing\nclasses. You can also use the `parent` method inside it.\n\nAll children classes will also be able to access this new method, even after\ninstancing.\n\n```javascript\nAnimal.prototype.newlyAddedMethod = function newlyAddedMethod(){\n\tconsole.log(\'AnimalMethod\');\n\tthis.parent();\n};\n```',
+79 silly publish   readmeFilename: 'README.md',
+79 silly publish   _id: 'nuclei@0.1.1',
+79 silly publish   dist: { shasum: '0bf02c3c5f8d0827741a11812b0452ea56c37d29' },
+79 silly publish   _from: '.' }
+80 verbose url raw nuclei
+81 verbose url resolving [ 'https://registry.npmjs.org/', './nuclei' ]
+82 verbose url resolved https://registry.npmjs.org/nuclei
+83 info trying registry request attempt 1 at 20:33:23
+84 http PUT https://registry.npmjs.org/nuclei
+85 http 409 https://registry.npmjs.org/nuclei
+86 verbose url raw nuclei
+87 verbose url resolving [ 'https://registry.npmjs.org/', './nuclei' ]
+88 verbose url resolved https://registry.npmjs.org/nuclei
+89 info trying registry request attempt 1 at 20:33:24
+90 http GET https://registry.npmjs.org/nuclei
+91 http 200 https://registry.npmjs.org/nuclei
+92 error publish fail Cannot publish over existing version.
+92 error publish fail Update the 'version' field in package.json and try again.
+92 error publish fail
+92 error publish fail If the previous version was published in error, see:
+92 error publish fail     npm help unpublish
+92 error publish fail
+92 error publish fail To automatically increment version numbers, see:
+92 error publish fail     npm help version
+93 error System Linux 3.8.0-31-generic
+94 error command "/usr/bin/node" "/usr/bin/npm" "publish" "."
+95 error cwd /home/skerit/projecten/alchemy-skeleton/node_modules/alchemymvc/node_modules/nuclei
+96 error node -v v0.10.20
+97 error npm -v 1.3.11
+98 error code EPUBLISHCONFLICT
+99 verbose exit [ 1, true ]
