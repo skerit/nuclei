@@ -6,8 +6,4 @@
 *.mwb*
 *.sublime*
 .fuse*
-
-
-
-
-
+npm-debug.log

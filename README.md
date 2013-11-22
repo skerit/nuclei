@@ -85,6 +85,7 @@ Every instance has a bit of magic:
 passed at instancing.
 
 - `__extended__`: This method runs when the class is being extended.
+This runs outside of any instance, but it still has access to 'parent()'.
 
 - `augment`: This method creates an 'augmented' version of the current instance.
 You can read more about this in the 'augmentation' section.
