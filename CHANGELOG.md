@@ -1,3 +1,8 @@
+# 0.2.4 (WIP)
+
+* Improve the initialization speed
+
+
 # 0.2.3 (2014-06-17)
 
 * Add `also` to the option object of the extend method. This should be a 
