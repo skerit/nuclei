@@ -15,8 +15,6 @@ npm install nuclei
 ```
 
 
-
-
 ## Usage
 
 Require `Nuclei`, the base class from which all others inherit:
@@ -51,6 +49,10 @@ instances.
 
 - OptionsObject: An optional object containing special configuration. Mostly
 used by internal Nuclei stuff.
+  - also: A class (or array of classes) for multiple inheritance. Especially
+    useful for non-nuclei classes, like EventEmitter.
+
+---
 
 
 #### overload method
@@ -70,11 +72,14 @@ Warning: Does not affect already existing instances.
 
 - NewClassConstructor: Same as the `extend` method parameter.
 
+---
+
 
 #### parent property
 
 The parent property of the class is a reference to its parent class.
 
+---
 
 
 ### Class Instance Magic Methods
@@ -95,6 +100,7 @@ You can read more about this in the 'augmentation' section.
 - `parent`: The parent method calls a method from the parent class. More can be
 read in the 'parent' section.
 
+---
 
 
 ### Create a new class
@@ -119,6 +125,8 @@ var myAnimal = new Animal();
 myAnimal.speak();
 // >>> "What does a generic animal say?"
 ```
+
+---
 
 
 ### Extend a class
@@ -148,6 +156,9 @@ myDog.speak();
 // >>> "The brown dog says: woef!"
 ```
 
+---
+
+
 ### Augmenting an instance
 
 In certain cases it could be wasteful to create a new instance of a class.
@@ -159,6 +170,8 @@ var myAugmentedDog = myDog.augment({color: 'augmented'});
 myAugmentedDog.speak();
 // >>> "The augmented dog says: woef!"
 ```
+
+---
 
 
 ### Parent
