@@ -1,7 +1,7 @@
 # 0.2.4 (WIP)
 
 * Improve the initialization speed
-
+* Do not output a warning when looking for a parent property that isn't there
 
 # 0.2.3 (2014-06-17)
 
