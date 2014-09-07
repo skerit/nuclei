@@ -2,6 +2,8 @@
 
 * Improve the initialization speed
 * Do not output a warning when looking for a parent property that isn't there
+* When 'also' extending other classes: use Object.getOwnPropertyNames,
+  so non-enumerable properties won't be skipped.
 
 # 0.2.3 (2014-06-17)
 
